@@ -1,0 +1,11 @@
+spring:
+  main:
+    allow-circular-references: true
+
+  redis:
+    cluster:
+      nodes:
+      - redis-release-redis-cluster-0.redis-release-redis-cluster-headless:6379
+      - redis-release-redis-cluster-1.redis-release-redis-cluster-headless:6379
+      - redis-release-redis-cluster-2.redis-release-redis-cluster-headless:6379
+    password: red1S@2022#
